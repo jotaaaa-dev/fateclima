@@ -66,6 +66,7 @@ function App(){
         App desenvolvido em ReactJS e integrado com as API's Opencagedata e OpenWeatherMap
         </p>
       </Jumbotron>
+      
       {clima &&
       <p>Cidade: {clima.name} - Temperatura: {clima.main.temp} </p>
       }
